@@ -1,0 +1,97 @@
+HTML
+________________________________________________________________________________
+save a file:
+    ctrl + s
+
+<!DOCTYPE HTML>
+- Tell's the web browser the type of webpage
+
+Headers
+<h1>Most important header</h1>
+<h6>Least important</h6>
+
+Body
+<body>
+<p></p>
+</body>
+
+lorem
+- filler
+
+images
+<igm src="url" alt="an image" height=100 width=100>
+
+anchor hyperlink
+<a href="url">Text</a>
+
+Lists
+<ol>
+    <li>list item</li>
+</ol>
+- makes an ordered, number list
+
+<ul>
+    <li>list item</li>
+</ul>
+- makes an unordered, bulleted list
+
+Tables
+<table>
+    <thead>
+        <th>column</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>table data</td>
+        </tr>
+    <tbody>
+</table>
+
+Forms
+<label for="first_name">First Name:</label>
+<input type="text" id="first_name" name="first_name">
+<label for="last_name">Last Name:</label>
+<input type="text" id="last_name" name="last_name">
+<label for="email">Email:</label>
+<input type="text" id="email" name="email">
+- fill-in-the-blanks
+
+<label for="password">Password</label>
+<input type="password" id="password" name="password">
+-password input with stars
+
+<label for="male">Male</label>
+<input type="radio" id="male" name="gender" value="male">
+<label for="female">Female</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="decline">Prefer not to say</label>
+<input type="radio" id="decline" name="gender" value="decline">
+- radio buttons
+
+<select name="gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="decline">Prefer not to say</option>
+</select>
+- drop down menu
+
+<label for="blue">Blue</label>
+<input type="checkbox" id="blue" name="color" value="blue">
+<label for="green">Green</label>
+<input type="checkbox" id="green" name="color" value="green">
+<label for="red">Red</label>
+<input type="checkbox" id="red" name="color" value="red">
+<label for="black">Black</label>
+<input type="checkbox" id="black" name="color" value="black">
+<label for="purple">Purple</label>
+<input type="checkbox" id="purple" name="color" value="purple">
+-check boxes
+
+<textarea name="description"></textarea>
+- text box area for more input from user
+
+<input type="hidden" name="id" value="7">
+- hidden from user
+
+<input type="submit" value="Submit">
+- create a submit button

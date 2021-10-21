@@ -1,0 +1,45 @@
+h1{
+    background-color: aqua;
+    height: 20px;
+    margin-inline-end: 100px;
+    padding-block-start: 200px;
+    width: 85px;
+    color: orange;
+}
+
+img{
+    width: 2000px;
+    padding: 300px;
+}
+
+body{
+    background-color: brown;
+}
+
+p {
+    margin: 60px;
+    border: 2px dotted purple;
+    font-size: 20px;
+    font-style: italic;
+    width: 200px;
+}
+
+div{
+    border: 20px groove orange;
+}
+
+table{
+    background-position: center;
+    background-color: greenyellow;
+}
+
+ul{
+    margin-inline-start: 500px;
+    background-position-x: left;
+    background-color: saddlebrown;
+}
+
+label{
+    font-size: 80px;
+    color: blue;
+}
